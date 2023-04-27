@@ -1,0 +1,11 @@
+command examples V1.0.0:
+
+cargo run -- -j test-journal.json add "buy milk"
+cargo run -- -j test-journal.json add "buy eggs"
+cargo run -- -j test-journal.json add "buy bread"
+cargo run -- -j test-journal.json add "buy butter"
+
+cargo run -- -j test-journal.json list
+
+cargo run -- -j test-journal.json done 2
+
